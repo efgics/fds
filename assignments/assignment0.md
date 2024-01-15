@@ -1,8 +1,8 @@
-[<img width=900 src="https://github.com/hil-se/fds/blob/master/img/title.png?raw=yes">](https://github.com/hil-se/fds/blob/master/README.md)   
-[Syllabus](https://github.com/hil-se/fds/blob/master/README.md) |
-[Slides and Assignments](https://github.com/hil-se/fds/blob/master/assignments/README.md) |
-[Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |
-[Lecturer](http://zhe-yu.github.io) 
+[<img width=900 src="../img/title.png?raw=yes">](../README.md)   
+[Syllabus](../README.md) |
+[Slides and Assignments](README.md) |
+[Project](project.md) |
+[Lecturer](https://www.rit.edu/directory/efgics-erik-golen) 
 
 
 ## Python Basics
@@ -33,18 +33,17 @@
 
 ### 1. Create a new PRIVATE repository called **DSCI-633** under your Github account.
  - (1) Click on the **new** button:
- ![](https://github.com/hil-se/fse/blob/master/img/create_repo.png?raw=yes)
+ ![](../img/create_repo.png?raw=yes)
  
  - (2) Initiate the new private repo:
- ![](https://github.com/hil-se/fse/blob/master/img/init_repo.png?raw=yes)
+ ![](../img/init_repo.png?raw=yes)
  
- - (3) Invite the instructor and the TA as collaborators (GitHub ID: **azhe825, johnmelwin**):
- ![](https://github.com/hil-se/fse/blob/master/img/invite.png?raw=yes)
+ - (3) Invite the instructor and the TA as collaborators (GitHub ID: **efgics, johnmelwin**):
+ ![](../img/invite.png?raw=yes)
 
-### 2. Clone the **DSCI-633** repo to your local machine.
- ![](https://github.com/hil-se/fse/blob/master/img/clone_repo.png?raw=yes)
+### 2. Clone the **fds** repo to your local machine.
  ```
- git clone THE-COPIED-URL
+ git clone https://github.com/efgics/fds.git
  ```
 
 ### 3. Save username and token in git.
@@ -70,6 +69,5 @@
  DSCI-633> git push
  ```
  
- ### 5. Add your information to [Google sheet](https://docs.google.com/spreadsheets/d/1K-6ivZQALvivG2IOwIXAXR3Vh46nlwasxV0KAIZVzCM/edit#gid=1666229250)
- - Add your github repo url (along with your RIT identifier and Github ID) to the Google sheet.
- - Make a self-evaluation on your current knowledge/expertise in coding, Python, and machine learning. This information will ONLY be used to decide your study group.
+ ### 5. Add your information to [Google sheet](https://docs.google.com/spreadsheets/d/19g1TODvkWwQbnTLqmUM7TfOaZc9uCZmavekgv80pxpE/edit?usp=sharing)
+ - Add your github repo link (along with your RIT username and Github username) to the Google sheet.
