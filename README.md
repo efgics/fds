@@ -5,7 +5,7 @@
 [Instructor](https://www.rit.edu/directory/efgics-erik-golen) 
 
 ## Course Description
-A foundation course in data science, emphasizing both concepts and techniques. The course provides an overview of data analysis tasks and the associated challenges, spanning data preprocessing, model building, model validation, and evaluation. Major families of data analysis techniques covered include classification, clustering, association analysis, anomaly detection, and statistical testing. This is a practice-driven course as it includes a series of programming assignments that will involve the implementation of specific techniques on practical datasets from diverse application domains, reinforcing the concepts and techniques covered in lectures. The best way to learn an algorithm is to implement and apply it youself. You will experience that in this course.
+A foundational course in data science, emphasizing both concepts and techniques. The course provides an overview of data analysis tasks and the associated challenges, spanning data preprocessing, model building, model validation, and evaluation. Major families of data analysis techniques covered include classification, clustering, association analysis, anomaly detection, and statistical testing. This is a practice-driven course as it includes a series of programming assignments that will involve the implementation of specific techniques on practical datasets from diverse application domains, reinforcing the concepts and techniques covered in lectures. The best way to learn an algorithm is to implement and apply it youself. You will experience that in this course.
 
 ## Course Learning Outcomes
 
@@ -15,7 +15,7 @@ Students completing this course are expected to
  - Develop the ability to solve real-world problems using machine learning.
 
 ## Syllabus and Policies
-The course uses Github for assignment submission, discussion, questions. Slides, assignments, and recorded videos will be posted here.
+The course uses Github for assignment submission. Slides and assignments will be posted here. Video lecture recordings and weekly course announcements will be posted on myCourses.
 
 **Prerequisites**: The course does not have formal prerequesites, but we describe background knowledge that will help you be successful in the course. Since the course always has a substantial programming component solid programming skills will be benefitial. Also note that Python and github are required for submitting assignments and [Assignment 0](assignments/assignment0.md) provides learning materials to help students with those.
 
