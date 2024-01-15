@@ -21,7 +21,7 @@ The course uses Github for assignment submission, discussion, questions. Slides,
 
 **Textbook**: We will be using [Pang-Ning Tan's "Introduction to Data Mining (Second Edition)" (ISBN-13: 978-0133128901)](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php) throughout the course. However, there is no need to buy that book since the slides will cover all the content you need. Meanwhile, a better way (than reading the textbook) to dig deeper into the material is always searching online for research papers and blog articles.
 
-**Grading**: Evaluation will be based on the following distribution: 70% assignments, 30% project. A detailed grading policy can be found at the end of the description of each assignment and project.
+**Grading**: Final grades will be based on the following distribution: 70% assignments, 30% project. A detailed grading policy can be found at the end of the description of each assignment and project.
 | Grade | Points      |   | Grade | Points   |
 |-------|-------------|---|-------|----------|
 | A     | 93 or above |   | B-    | 80 – 82  |
@@ -29,11 +29,11 @@ The course uses Github for assignment submission, discussion, questions. Slides,
 | B+    | 87 – 89     |   | C     | 70 – 76  |
 | B     | 83 – 86     |   | F     | Below 70 |
 
-**Time management**: Besides the 2.5 hours/week on lectures, students are expected to spend 1 to 5 hours on assignments (for the first 9 weeks) or on the project (for the rest weeks) every week depending on their proficiency in coding and machine learning.
+**Time management**: Besides ~2 hours per week of lectures, students are expected to spend 1 to 5 hours on assignments (for the first 9 weeks) or on the project (for the rest weeks) every week depending on their proficiency in coding and machine learning.
 
 **Late work policy**: The TA will start grading assignments after the due date. Late work in assignments will not be graded. Exceptions to this policy will be made only in extraordinary circumstances, almost always involving a family or medical emergency---with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf. Accommodations for travel (e.g., for interviews) might be possible if requested at least 3 days in advance. 
 
-**Team work**: Students will be assigned to small study groups. Discussions within the group are welcomed but each student should complete their assignments and project independently. Identical or extremely similar submissions within the study group will still be considered as cheating. Questions that cannot be resolved within the study group should be posted as a new issue on this repo for discussion.
+**Team work**: Students are welcome to work with other students, but each student should complete their own assignments and project independently. Identical or extremely similar submissions will be considered as cheating.
 
 **Academic Integrity**: Students are encouraged to discuss the assignments and projects with each other, especially in their study group. But do not copy finished assignments or projects from other students' Github repos. Up to 90% of the learning in this course comes from completing the assignments and the project. Skipping the assignments and the project is a huge waste to your effort spent on this course. In the meantime, students need to confront the TA or the instructor if their submissions were found too similar.
 
