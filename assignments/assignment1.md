@@ -9,9 +9,9 @@
  ![](https://github.com/efgics/fds/blob/master/img/watch.png?raw=yes)
  - 1. Clone this repo to your local machine (Do **NOT** do this inside your DSCI-633 directory):
  ```
- git clone https://github.com/hil-se/fds.git
+ git clone https://github.com/efgics/fds.git
  ```
- - 2. Copy ONLY the folder [assignments/](https://github.com/hil-se/fse/tree/master/assignments/) from this repo to your repo **DSCI-633** folder. 
+ - 2. Copy ONLY the folder [assignments/](https://github.com/efgics/fds/tree/master/assignments/) from this repo to your repo **DSCI-633** folder. 
  ```
  fds/
  |-- assignments   ---
@@ -19,9 +19,9 @@
  DSCI-633/           |
  |-- assignments  <---
  ```
- Inside the **DSCI-633** repo, it should look like [mine](https://github.com/azhe825/DSCI-633).
+ Inside the **DSCI-633** repo, it should look like [mine](https://github.com/efgics/fds).
  **Clarification: this is just for using the assignment code in your own repo. Just copy and paste from local directories, do not try to link these two repos in any way.**
- - 3. Run [A1.py](https://github.com/hil-se/fds/blob/master/assignments/Preparation/A1.py):
+ - 3. Run [A1.py](https://github.com/efgics/fds/blob/master/assignments/Preparation/A1.py):
  ```
  DSCI-633/assignments/Preparation> python A1.py
 SepalLengthCm            5.0
@@ -104,17 +104,17 @@ Iris-virginica  0.999999
 Iris-virginica  0.999988
 Iris-virginica  0.753482
  ```
- - 4. Modify [A1.py](https://github.com/hil-se/fds/blob/master/assignments/Preparation/A1.py) to print out the 12th training data point.
- - 5. Modify [A1.py](https://github.com/hil-se/fds/blob/master/assignments/Preparation/A1.py) to print out the "SepalWidthCm" column.
- - 6. Modify [A1.py](https://github.com/hil-se/fds/blob/master/assignments/Preparation/A1.py) to print out training data points with "SepalWidthCm" < 2.5.
- - 7. Modify [A1.py](https://github.com/hil-se/fds/blob/master/assignments/Preparation/A1.py) so that a Decision Tree Classifier is used to make the prediction instead of Gaussian Naive Bayes. Use the [Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier) from scikit-learn directly (without any specific parameters).
- - 8. Run A1.py again and snapshot the output (including the command *python A1.py*). 
- - 9. Save the snapshot as A1.png and put it under *assignments/Prepation/* in your repo. Should look like [this](https://github.com/azhe825/DSCI-633/tree/master/assignments/Preparation). Note: the [example snapshot](https://github.com/azhe825/DSCI-633/tree/master/assignments/Preparation/A1.png) will look different from the correct one.
+ - 4. Modify [A1.py](https://github.com/efgics/fds/blob/master/assignments/Preparation/A1.py) to print out the 12th training data point.
+ - 5. Modify [A1.py](https://github.com/efgics/fds/blob/master/assignments/Preparation/A1.py) to print out the "SepalWidthCm" column.
+ - 6. Modify [A1.py](https://github.com/efgics/fds/blob/master/assignments/Preparation/A1.py) to print out training data points with "SepalWidthCm" < 2.5.
+ - 7. Modify [A1.py](https://github.com/efgics/fds/blob/master/assignments/Preparation/A1.py) so that a Decision Tree Classifier is used to make the prediction instead of Gaussian Naive Bayes. Use the [Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier) from scikit-learn directly (without any specific parameters).
+ - 8. Run A1.py again and screenshot the output (including the command *python A1.py*). 
+ - 9. Save the screenshot of the output as A1.png and put it under *assignments/Preparation/* in your repo. Should look like [this](https://github.com/azhe825/DSCI-633/tree/master/assignments/Preparation). Note: the [example screenshot](https://github.com/azhe825/DSCI-633/tree/master/assignments/Preparation/A1.png) will look different from the correct one.
  - 10. Commit to the remote server of Github.
  
  ## Grading Policy
  - 6 (out of 7) points will be received if all the required files can be found in the submitted repo.
- - The rest 1 point will be given based on whether the screenshot A1.png is correct.
- - **Note:** be sure to add your github repo url to the [Google sheet](https://docs.google.com/spreadsheets/d/1K-6ivZQALvivG2IOwIXAXR3Vh46nlwasxV0KAIZVzCM/edit?usp=sharing) since this is how this and all the future assignments will be graded.
+ - The other point will be given based on whether the screenshot A1.png is correct.
+ - **Note:** be sure to add your github repo url to the [Google sheet]() since this is how this and all the future assignments will be graded.
  
  
