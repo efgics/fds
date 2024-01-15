@@ -1,8 +1,8 @@
-[<img width=900 src="https://github.com/hil-se/fds/blob/master/img/title.png?raw=yes">](https://github.com/hil-se/fds/blob/master/README.md)   
-[Syllabus](https://github.com/hil-se/fds/blob/master/README.md) |
-[Slides and Assignments](https://github.com/hil-se/fds/blob/master/assignments/README.md) |
-[Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |
-[Instructor](http://zhe-yu.github.io) 
+[<img width=900 src="img/title.png?raw=yes">](README.md)   
+[Syllabus](README.md) |
+[Slides and Assignments](assignments/README.md) |
+[Project](assignments/project.md) |
+[Instructor](https://www.rit.edu/directory/efgics-erik-golen) 
 
 ## Course Materials
 
