@@ -1,5 +1,5 @@
 [<img width=900 src="img/title.png?raw=yes">](README.md)   
-[Syllabus](master/README.md) |
+[Syllabus](README.md) |
 [Slides and Assignments](assignments/README.md) |
 [Project](assignments/project.md) |
 [Instructor](https://www.rit.edu/directory/efgics-erik-golen) 
