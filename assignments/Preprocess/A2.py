@@ -28,7 +28,7 @@ if __name__ == "__main__":
 
     # Perform stratified sampling
     sample = my_preprocess.stratified_sampling(y, ratio = 0.5, replace = False)
-    X_sample = X_pca[sample]
+    X_sample = X_norm[sample]
     y_sample = y[sample].to_numpy()
     print("\nSample class distribution:")
     print(Counter(y_sample))
