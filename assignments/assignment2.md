@@ -14,7 +14,7 @@ Assignment code will be added weekly, so please pull from this repo first and co
 The idea in this assignment is to see the effect that normalization techniques may have on model prediction results. There are four normalization techniques that were presented in lecture that you will be implementing: Min-Max, Standard Score, L1 Normalization, and L2 Normalization. In addition, you will be writing a stratified sampling function in order to provide a sample that is hopefully representative of the full iris data set.
 
 #### Complete the code in [my_preprocess.py](Preprocess/my_preprocess.py)
-You will be implementing the each of the four normalization techniques from lecture and a stratified sampling funciton.
+You will be implementing each of the four normalization techniques from lecture and a stratified sampling function.
 
 ### Test my_preprocess with [A2.py](Preprocess/A2.py)
 A2.py will need to be modified so that it builds a Decision Tree model each of the four normalization techniques using the training data and then performs predictions on the test data.
