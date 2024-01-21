@@ -19,7 +19,7 @@ You will be implementing each of the four normalization techniques from lecture 
 ### Test my_preprocess with [A2.py](Preprocess/A2.py)
 A2.py will need to be modified so that it builds a Decision Tree model each of the four normalization techniques using the training data and then performs predictions on the test data.
 
-The output below shows the expected output for the Min-Max normalizer. The same output format is expected for the other three normalizers. Note that the output from before normalization and the original iris class distribution does not need to be repeated in the output, just the normalizer results:
+The output below shows summary statistics of the sepal lengths of the test data, the original iris class distribution, and the expected output for all of the normalizers.
 ```
 (base) D:\projects\DSCI-633\assignments\Preprocess>python A2.py
 Before normalization:
@@ -35,6 +35,51 @@ After normalization:
 Min Sepal Length = 0.0
 Mean Sepal Length = 0.40931216931216924
 Max Sepal Length = 1.0
+
+Sample class distribution:
+Counter({'Iris-setosa': 23, 'Iris-versicolor': 23, 'Iris-virginica': 23})
+
+Model predictions:
+['Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-virginica' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica']
+
+Running Standard_Score normalizer
+After normalization:
+Min Sepal Length = -1.7456935615254507
+Mean Sepal Length = -1.2105542905542447e-15
+Max Sepal Length = 2.5192506361000664
+
+Sample class distribution:
+Counter({'Iris-setosa': 23, 'Iris-versicolor': 23, 'Iris-virginica': 23})
+
+Model predictions:
+['Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica']
+
+Running L1 normalizer
+After normalization:
+Min Sepal Length = 0.005588011176022352
+Mean Sepal Length = 0.007407407407407406
+Max Sepal Length = 0.010033020066040132
+
+Sample class distribution:
+Counter({'Iris-setosa': 23, 'Iris-versicolor': 23, 'Iris-virginica': 23})
+
+Model predictions:
+['Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-virginica' 'Iris-versicolor' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-versicolor']
+
+Running L2 normalizer
+After normalization:
+Min Sepal Length = 0.06429355118375138
+Mean Sepal Length = 0.08522683872405021
+Max Sepal Length = 0.11543614871628087
 
 Sample class distribution:
 Counter({'Iris-setosa': 23, 'Iris-versicolor': 23, 'Iris-virginica': 23})
