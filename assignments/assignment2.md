@@ -52,7 +52,7 @@ Model prediction results may be a little bit different due to randomness in stra
  ## Grading Policy
  - Importing additional packages to perform normalization and/or stratified sampling, such as in sklearn, is not allowed.
  - 4 (out of 7) points will be received if A2.py successfully runs and makes predictions
- - The rest 3 points will be given based on the percentage of the same predictions with the correct implementation.
+ - The 3 remaining points will be given based on the percentage of the same predictions with the correct implementation.
    
 ## Hint
  - If you are having difficulty implementing everything needed for my_preprocess.py, or just want to get an idea of how to start, take a look at [my_preprocess_hint.py](Preprocess/my_preprocess_hint.py).
