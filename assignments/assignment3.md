@@ -1,8 +1,8 @@
 [<img width=900 src="../img/title.png?raw=yes">](../README.md)   
-[Syllabus](https://github.com/hil-se/fds/blob/master/README.md) |
-[Slides and Assignments](https://github.com/hil-se/fds/blob/master/assignments/README.md) |
-[Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |
-[Lecturer](http://zhe-yu.github.io) 
+[Syllabus](../README.md) |
+[Slides and Assignments](README.md) |
+[Project](project.md) |
+[Lecturer](https://www.rit.edu/directory/efgics-erik-golen) 
 
 ## Evaluation
 
