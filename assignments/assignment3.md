@@ -12,10 +12,10 @@ Assignment codes might be modified during the semester so please pull from this 
 
 ### Build your own evaluation methods
 
-#### Implement every function in [my_evaluation.py](https://github.com/hil-se/fds/blob/master/assignments/Evaluation/my_evaluation.py)
+#### Implement every function in [my_evaluation.py](Evaluation/my_evaluation.py)
 Hint: compute self.confusion once and use it to calculate other metrics (except for auc).
 
-### Test my_evaluation Algorithm with [A3.py](https://github.com/hil-se/fds/blob/master/assignments/Evaluation/A3.py)
+### Test my_evaluation Algorithm with [A3.py](Evaluation/A3.py)
 
 Expected output:
 ```
@@ -66,5 +66,5 @@ Average F1 scores:
  - The rest 3 points will be given based on the percentage of the same performance metrics with the correct implementation.
 
 ## Hint
- - If my_evaluation.py is too difficult to implement, you can try to complete [my_evaluation_hint.py](https://github.com/hil-se/fds/blob/master/assignments/Evaluation/my_evaluation_hint.py).
+ - If my_evaluation.py is too difficult to implement, you can try to complete [my_evaluation_hint.py](Evaluation/my_evaluation_hint.py).
  - Then, remember to rename it as my_evaluation.py before submitting. 
