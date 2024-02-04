@@ -28,7 +28,7 @@ class my_NB:
         # return predictions: list
         # Hint: predicted class is the class with highest prediction probability (from self.predict_proba)
         probs = self.predict_proba(X)
-        predictions = "Write your own code"
+        predictions = [self.classes_[np.argmax(prob)] for prob in probs.to_numpy()]
         return predictions
     
     def predict_proba(self, X):
