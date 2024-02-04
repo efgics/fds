@@ -1,42 +1,42 @@
-[<img width=900 src="https://github.com/hil-se/fds/blob/master/img/title.png?raw=yes">](https://github.com/hil-se/fds/blob/master/README.md)   
-[Syllabus](https://github.com/hil-se/fds/blob/master/README.md) |
-[Slides and Assignments](https://github.com/hil-se/fds/blob/master/assignments/README.md) |
-[Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |
-[Lecturer](http://zhe-yu.github.io) 
+[<img width=900 src="img/title.png?raw=yes">](../README.md)   
+[Syllabus](../README.md) |
+[Slides and Assignments](README.md) |
+[Project](project.md) |
+[Lecturer](https://www.rit.edu/directory/efgics-erik-golen) 
 
 ## Naive Bayes Classifier
 
 ### Make sure your repo is up-to-date
 
-Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the NaiveBayes folder. 
+Assignment code is pushed weekly during the semester, so please pull from this repo first and copy the NaiveBayes folder to your repo. Also note that in the data directory, the audiology_train.csv and audiology_test.csv have different names than before (they did not have a .csv file extension), so be sure to copy those over to your data directory.
 
-### Do NOT treat "?" as missing values in this assignment. Treat it as a regular value that X can take.
+### In the data, do NOT treat "?" as missing values in this assignment. Treat it as a regular value that feature X can take.
 
 ### Build your own categorical Naive Bayes classifier
 
-#### Implement my_NB.fit() function in [my_NB.py](https://github.com/hil-se/fds/blob/master/assignments/NaiveBayes/my_NB.py)
+#### Implement my_NB.fit() function in [my_NB.py](NaiveBayes/my_NB.py)
 Inputs:
-- X: pd.DataFrame, independent variables, each value is a category of str type
-- y: list, np.array or pd.Series, dependent variables, each value is a category of int or str type
+- X: pd.DataFrame, independent variables, each value is a category of type str.
+- y: list, np.array or pd.Series, dependent variables, each value is a category of type int or str.
 
-#### Implement my_NB.predict() function in [my_NB.py](https://github.com/hil-se/fds/blob/master/assignments/NaiveBayes/my_NB.py)
+#### Implement my_NB.predict() function in [my_NB.py](NaiveBayes/my_NB.py)
 Input:
-- X: pd.DataFrame, independent variables, each value is a category of str type
+- X: pd.DataFrame, independent variables, each value is a category of type str.
 
 Output:
-- Predicted categories of each input data point. List of str or int.
+- Predicted categories of each input data point. List containing elements of type str or int.
 
-#### Implement my_NB.predict_proba() function in [my_NB.py](https://github.com/hil-se/fds/blob/master/assignments/NaiveBayes/my_NB.py)
+#### Implement my_NB.predict_proba() function in [my_NB.py](NaiveBayes/my_NB.py)
 Input:
-- X: pd.DataFrame, independent variables, each value is a category of str type
+- X: pd.DataFrame, independent variables, each value is a category of type str.
 
 Output:
-- Prediction probabilities of each input data point belonging to each categories. pd.DataFrame(list of prob, columns = self.classes_).
+- Prediction probabilities of each input data point belonging to each categories. pd.DataFrame(list of probabilities, columns = self.classes_).
 
-### Test my_NB classifier with [A4.py](https://github.com/hil-se/fds/blob/master/assignments/NaiveBayes/A4.py)
+### Test my_NB classifier with [A4.py](NaiveBayes/A4.py)
 Expected output:
 ```
-(base) zhe@Zhe-Yus-MacBook-Pro NaiveBayes % python A4.py 
+(base) NaiveBayes % python A4.py 
 cochlear_age    0.999408
 cochlear_age    0.999408
 cochlear_age    0.875175
@@ -69,12 +69,12 @@ cochlear_poss_noise     0.601495
 
  
  ## Grading Policy 
- - importing additional packages such as sklearn is not allowed.
+ - Importing additional packages that implement Naive Bayes, such as sklearn, is not allowed.
  - 4 (out of 7) points will be received if A4.py successfully runs and makes predictions.
- - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
+ - The 3 remaining points will be given based on the percentage of the same predictions with the correct implementation.
  
   
 ## Hint
- - If my_NB.py is too difficult to implement, you can try to complete [my_NB_hint.py](https://github.com/hil-se/fds/blob/master/assignments/NaiveBayes/my_NB_hint.py).
- - [my_NB_hint.py](https://github.com/hil-se/fds/blob/master/assignments/NaiveBayes/my_NB_hint.py) has the predict() and predict_proba() functions already implemented. Students only need to complete the fit() functions.
- - Then, remember to rename it as my_NB.py before submitting.
+ - If you would hints or to figure out how to get started, you can use [my_NB_hint.py](NaiveBayes/my_NB_hint.py).
+ - [my_NB_hint.py](NaiveBayes/my_NB_hint.py) has the predict() and predict_proba() functions already implemented. You will only need to complete the fit() function.
+ - If you use the hint file, remember to rename it as my_NB.py before submitting.
