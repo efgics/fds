@@ -33,5 +33,5 @@ Impurity Metric = entropy , Max Depth =  2
 
 ## Grading Policy
  - 2 (out of 7) points will be received if A6.py runs all of the DecisionTreeClassifier models using the expected parameters.
- - The remaining 5 points are based upon your answers provided in the [A6 Analysis Template.docx](DecisionTree/A6 Analysis Template.docx) document. Each question is worth 1 point and typing your performance metrics into the tables is worth 1 point. In the tables, please round your performance metrics to 3 decimal places. This document should be saved as A6.pdf and placed in your DecisionTree folder on GitHub.
+ - The remaining 5 points are based upon your answers provided in A6 Analysis Template.docx. Each question is worth 1 point and typing your performance metrics into the tables is worth 1 point. In the tables, please round your performance metrics to 3 decimal places. This document should be saved as A6.pdf and placed in your DecisionTree folder on GitHub.
  
