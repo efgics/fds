@@ -15,7 +15,7 @@ This assignment will be combining the model evaluation code you wrote for Assign
 
 To complete this assignment, you will need to modify [A6.py](DecisionTree/A6.py) so that it creates several DecisionTreeClassifier models and prints out performance results for each model, including precision, recall, and F1 score for both class values, recurrence-events and no-recurrence-events.
 
-You will be using two impurity metrics, Gini and entropy, and max depth values of 2, 3, 4, and 5, for a total of 10 decision tree classifier models. See the output below for results from two of them.
+You will be using two impurity metrics, Gini and entropy, and max depth values of 2, 3, 4, and 5, for a total of 8 decision tree classifier models. See the output below for results from two of them.
 
  Expected output:
  ```
