@@ -12,8 +12,6 @@ Assignment code is pushed weekly during the semester, so please pull from this r
 
 ### Build your own K-Means Clustering Algorithm (with continuous input)
 
-#### Hint: memorize the calculated distances to avoid redundant computations.
-
 #### Implement my_KMeans.fit() function in [my_KMeans.py](Kmeans/my_KMeans.py)
 Inputs:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
