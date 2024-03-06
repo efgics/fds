@@ -19,7 +19,7 @@ if __name__ == "__main__":
     print([(y[i], y_p[i]) for i in range(len(y))])
     print("\nCentroids:")
     print(clf.cluster_centers_)
-    print("\nLowest SSE: %f" %clf.inertia_)
+    print("\nLowest SSE: %f" %clf.sse_)
 
     # Load testing data
     data_test = pd.read_csv("../data/Iris_test.csv")
