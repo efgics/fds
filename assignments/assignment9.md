@@ -15,7 +15,7 @@ Assignment code is pushed weekly during the semester, so please pull from this r
 #### Implement code to calculate the silhouette coefficient for the iris data set
 You will be calculating the average silhouette coefficient for runs of k-means on the iris data with a k of 2, 3, 5, and 7 clusters. Input files are in the data folder and are k2.csv, k3.csv, k5.csv, and k7.csv, respectively.
 
-Each data file contains 150 iris flowers that were clustered using k-means clustering. Clustering was done using SepalLength, SepalWidth, PetalLength, and PetalWidth. The Cluster column denotes which cluster each data instance ended up in once k-means converged. Note that the Instance column is of no use and should be ignored.
+Each data file contains 150 iris flowers that were clustered using k-means clustering. Clustering was done using SepalLength, SepalWidth, PetalLength, and PetalWidth. The Cluster column denotes which cluster each data instance ended up in once k-means converged. Note that the Instance column is of no use and should be ignored. You should use Euclidean distance to calculate the distances between data instances.
 
 #### Suggested functions to implement
 Your code should iterate over all four runs of k-means, meaning that the code has to be generic enough to handle any number of clusters in the data. The structure of silhouette.py has been left to you, but below are some suggested functions. 
